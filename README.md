@@ -1,34 +1,68 @@
-# Movies-API
 
-Esse projeto Utiliza a API do TMDB 
-Para uma Busca simples por nome
+# Movies API 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
 
-O BackEnd Utiliza Java 17 com SpringBoot e Maven
-Onde consome a API em busca por nome 
-e na pagina inicial mostra os mais populares.
+# Sobre o projeto
 
 
 
-O FrontEnd Feito em ReactJs Onde a estilizacao 
-e um codigo em JavaScript que tem funcionalidades
-como a atualizacao em tempo real do que é digitado
-e utilizando Axios para consumir a api.
+Movie API é uma aplicação full stack web construida para praticar, Consumindo a API do TMBD.
+
+A aplicação consiste em uma pesquisa de preferência de filmes, onde os dados sao coletados da api do tmdb e listados, onde na tela inicial mostra os filmes mais populares e ao digitar já realiza buscar na api pelo nome informado.
 
 
-## Para iniciar o Projeto
+## Layout web
+![Web 1]()
 
-#Na pasta 'movie' iniciar o Backend Spring
-
-#Na pasta 'movie-search-app' com npm start
-
-## Tela do projeto
+![Web 2]()
 
 
-Tela inicial onde mostra os mais populares
 
-![Captura de Tela 2023-11-24 às 12.40.19.png](..%2FCaptura%20de%20Tela%202023-11-24%20%C3%A0s%2012.40.19.png)
+# Tecnologias utilizadas
+## Back end
+- Java
+- Spring Boot
+- Maven
+## Front end
+- HTML / CSS / JS / 
+- ReactJS
+- AXIOS
 
+# Como executar o projeto
 
-Tela  com resultado da pesquisa
+## Back end
+Pré-requisitos: Java 17
 
-![Captura de Tela 2023-11-24 às 12.43.28.png](..%2FCaptura%20de%20Tela%202023-11-24%20%C3%A0s%2012.43.28.png)
+```bash
+# clonar repositório
+git clone https://github.com/JailsonFSantos/Movies-API
+
+# entrar na pasta do projeto back end
+cd movie
+
+# executar o projeto
+./mvnw spring-boot:run
+```
+
+## Front end web
+Pré-requisitos: npm / yarn
+
+```bash
+# clonar repositório
+git clone https://github.com/JailsonFSantos/Movies-API
+
+# entrar na pasta do projeto front end web
+cd movie-search-app
+
+# instalar dependências
+npm install
+
+# executar o projeto
+npm start
+```
+
+# Autor
+
+Jailson Francisco dos Santos
+
+https://www.linkedin.com/in/jailson-santos-149202234/
