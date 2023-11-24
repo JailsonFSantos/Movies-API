@@ -21,7 +21,7 @@ function Home() {
     fetchPopularMovies();
   }, []); // Executa apenas uma vez no carregamento inicial
 
-  // Função para adicionar atraso à busca
+
   const delayedSearchMovies = (value) => {
     setTimeout(async () => {
       try {
@@ -30,7 +30,7 @@ function Home() {
       } catch (error) {
         console.error('Error fetching data:', error);
       }
-    }, 300); // Atraso de 300ms (ajuste conforme necessário)
+    }, 300);
   };
 
   // Função chamada durante a digitação
@@ -38,7 +38,7 @@ function Home() {
     const { value } = e.target;
     setQuery(value);
 
-    // Chama a busca após o atraso
+
     delayedSearchMovies(value);
   };
 
@@ -52,7 +52,7 @@ function Home() {
           value={query}
           onChange={handleInputChange}
         />
-        {/* Removido o botão de busca manual */}
+
         <div className="movie-cards-container">
           {query
             ? results.map((movie) => (
