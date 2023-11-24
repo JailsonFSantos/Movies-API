@@ -12,7 +12,7 @@ A aplicação consiste em uma pesquisa de preferência de filmes, onde os dados 
 
 
 ## Layout web
-![Web 1](src/assets/img01.png)
+![Web 1](movie-search-app/src/assets/img01.png)
 
 ![Web 2](src/assets/img02.png)
 
